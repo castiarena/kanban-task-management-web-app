@@ -1,3 +1,5 @@
 export { Check } from './Check'
 export { ChevronDown } from './ChevronDown'
 export { ChevronUp } from './ChevronUp'
+export { VerticalEllipsis } from './VerticalEllipsis'
+export { KanbanLogo } from './KanbanLogo'

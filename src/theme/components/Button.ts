@@ -9,12 +9,12 @@ export const Button: ComponentStyleConfig = {
     sizes: {
         lg: {
             fontSize: 'lg',
-            px: '69px',
+            px: '25px',
             py: '15px',
         },
         md: {
             fontSize: 'sm',
-            px: '69px',
+            px: '23px',
             py: '8px',
         },
     },
