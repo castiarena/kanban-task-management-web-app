@@ -33,7 +33,7 @@ const overrideTheme: ThemeOverride = {
     styles: {
         global: (props: StyleFunctionProps) => ({
             body: {
-                bg: mode('lighterGray', 'darkerGray')(props),
+                bg: mode('lighterGray', 'lightBlack')(props),
             },
         }),
     },

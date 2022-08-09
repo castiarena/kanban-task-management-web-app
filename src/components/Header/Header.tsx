@@ -9,7 +9,7 @@ import {
 
 export const Header: FC = () => {
     const borderColor = useColorModeValue('lightGray', 'lightGrayAlpha25')
-    const backgroundColor = useColorModeValue('white', 'darkGray')
+    const backgroundColor = useColorModeValue('white', 'darkerGray')
 
     return (
         <Flex

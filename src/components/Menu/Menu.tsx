@@ -1,9 +1,10 @@
 import { FC } from 'react'
 import { Box, useColorModeValue } from '@chakra-ui/react'
 import { KanbanLogo } from '../Icons'
+import { ThemeSwitcher } from '../ThemeSwitcher'
 
 export const Menu: FC = () => {
-    const menuBgColor = useColorModeValue('white', 'darkGray')
+    const menuBgColor = useColorModeValue('white', 'darkerGray')
     const borderColor = useColorModeValue('lightGray', 'lightGrayAlpha25')
 
     return (
@@ -22,7 +23,9 @@ export const Menu: FC = () => {
                 <KanbanLogo width={153} height={26} />
             </Box>
 
-            <Box>bottom</Box>
+            <Box px={6} py={8} w={'full'}>
+                <ThemeSwitcher />
+            </Box>
         </Box>
     )
 }
